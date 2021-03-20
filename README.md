@@ -15,5 +15,6 @@ Tech Stack Used:<br>
 <br>
 <br>
 ### Chatroom 
-![image](https://user-images.githubusercontent.com/66880336/111882186-3b8e7600-89da-11eb-8960-339d9eca0168.png)
+<img src="Capture.JPG" alt="Girl in a jacket" width="600" height="400">
+
 
