@@ -10,10 +10,9 @@ Tech Stack Used:<br>
     3.) Application Backend : Node js<br>
 <br>
 ### Mobile Application Frontend
-
-
+<img src="1.jpg"  width="200" height="400">  <img src="2.jpg" width="200" height="400">
 <br>
-<br>
+
 ### Chatroom 
 <img src="Capture.JPG" alt="Girl in a jacket" width="600" height="400">
 
