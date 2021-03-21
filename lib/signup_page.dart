@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
+import 'package:lost_found/home_screen.dart';
 import 'package:lost_found/widgets/round_button.dart';
+
 
 class SignUpPage extends StatefulWidget {
   @override
@@ -150,22 +152,32 @@ class _SignUpPageState extends State<SignUpPage> {
               SizedBox(
                 height: 70.0,
               ),
-              Container(
-                height: 60.0,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                  color: Color(0xffFFC107),
-                  borderRadius:BorderRadius.all(Radius.circular(15.0)),
-                ),
-                child: Padding(
-                  padding:  EdgeInsets.all(8.0),
-                  child: Text(
-                    'Sign Up',
-                    textAlign: TextAlign.center,
-                    style: GoogleFonts.montserrat(
-                      fontWeight: FontWeight.w400,
-                      fontSize: 30.0,
-                      color: Colors.black,
+              GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => HomeScreen(),
+                    ),
+                  );
+                },
+                child: Container(
+                  height: 60.0,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    color: Color(0xffFFC107),
+                    borderRadius:BorderRadius.all(Radius.circular(15.0)),
+                  ),
+                  child: Padding(
+                    padding:  EdgeInsets.all(8.0),
+                    child: Text(
+                      'Sign Up',
+                      textAlign: TextAlign.center,
+                      style: GoogleFonts.montserrat(
+                        fontWeight: FontWeight.w400,
+                        fontSize: 30.0,
+                        color: Colors.black,
+                      ),
                     ),
                   ),
                 ),
