@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lost_found/signup_page.dart';
-import 'login_page.dart';
-import 'lost_page.dart';
-import 'lostpost_page.dart';
-import 'chat_home_page.dart';
-import 'find_page.dart';
+import 'first_page.dart';
+
 
 void main() {
   runApp(LostnFound());
@@ -16,11 +12,8 @@ class LostnFound extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
-      home: ChatHomePage(),
+
+      home: FirstPage(),
     );
   }
 }
