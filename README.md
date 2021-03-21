@@ -1,16 +1,19 @@
-# lost_found
+# FILO
 
-A new Flutter application.
+## Introduction
+### All the code files are present in branch MASTER
 
-## Getting Started
+A mobile application that will enable THAPAR STUDENTS to find their lost items or report an item they found.
+Tech Stack Used:<br>
+    1) UI/ UX Designing : Figma (https://www.figma.com/file/t4ixqKwUfY1MQps8J8GufQ/Spirit-Hack-FiLo?node-id=0%3A1)<br>
+    2.) Application Frontend : Flutter<br>
+    3.) Application Backend : Node js<br>
+<br>
+### Mobile Application Frontend
+<img src="1.jpg"  width="200" height="400">  <img src="2.jpg" width="200" height="400">
+<br>
 
-This project is a starting point for a Flutter application.
+### Chatroom 
+<img src="Capture.JPG" alt="Girl in a jacket" width="600" height="400">
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
