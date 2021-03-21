@@ -14,6 +14,11 @@ const LostReport = require('../models/lostreport');
            }
        );
        console.log(found)
+       if(!found)
+       {
+        return res.status(200).send("No matches just now");
+       }
+
        return res.status(200).send(found);
      }catch(error)
      {
